@@ -1,0 +1,287 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  
+}
+
+p, h1, h2, h3 {
+  font-weight: 30;
+}
+
+nav {
+  background-color: #C12127;
+  color: rgba(255, 255, 255, 0.8);
+  padding-top: 15px;
+  height: 30px;
+}
+
+nav a {
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+}
+
+.top-left {
+  width: 50%;
+  float: left;
+} 
+
+.top-links {
+  display: inline-block;
+  float: right;
+  padding: 0;
+  margin: 0 20px 0 0;
+}
+
+.top-links li {
+  display: inline-block;
+  margin: 0 10px;
+  
+}
+
+/* header */
+
+.header-top {
+  margin: 5px 10px;
+}
+
+
+
+.header-btn {
+  background-color: rgb(240, 146, 51);
+  color: white;
+  text-align: center;
+  padding: 10px 14px;
+  border-radius: 30px;
+  border: 0px;
+
+
+}
+
+.header-background {
+  background-image: url(file:///Users/rodrigojikal/Desktop/lab-html-module-exercise-master/starter-code/images/city-scape.svg);
+  height: 400px;
+  padding-top: 10px;
+}
+
+.npm-logo {
+  float: left;
+  width: 10%;
+  margin-left: 10px;  
+  
+}
+
+.npm-logo img {
+  height: 35px;
+
+}
+
+.search-bar {
+  float: left;
+  width: 65%;
+  background-color: rgb(31, 82, 111);
+  border: 1px solid rgb(135, 145, 156);;
+  height: 35px;
+  color: white;
+
+}
+
+.search-btn {
+  float: left;
+  width: 5%;
+  background-color: rgb(31, 82, 111);
+  padding: 10 0;
+  margin: 10px auto 9 auto;
+  border: 1px solid;
+  border-left: 0;
+  border-color: rgb(135, 145, 156);
+  height: 35px;
+  color: rgb(135, 145, 156);
+
+}
+
+.header-links {
+  display: inline-block;
+  float: left;
+  width: 15%;
+  color: rgb(135, 145, 156);
+}
+
+.header-links ul {
+  display: inline-block;
+  margin: 0 10px;
+  padding-bottom: 5px;
+}
+
+.header-links li {
+  list-style-type: none;
+}
+
+.header-links a {
+  text-decoration: none;
+  color: rgb(135, 145, 156); 
+}
+
+.build-amazing {
+  width: 30%;
+  margin: 80px 0 0 320px;
+  color: white;
+}
+
+.build-amazing h1 {
+  margin: 12px 0;
+}
+
+.build-amazing p {
+  margin-bottom: 12px; 
+}
+
+/* collaboration */
+
+.dark-blue-background {
+  background-color: rgb(39, 53, 71);
+  height: 420px;
+}
+
+.collab {
+  margin: 0 auto;
+  padding-top: 70px;
+  color: white;
+  width: 60%;
+}
+
+
+#collaboration img {
+  height: 250px;
+  float: left;
+}
+
+.collab-text {
+  float: right;
+  padding-top: 10px;
+}
+
+.collab-text > ul{
+  margin: 20px 0 30px 15px;
+  line-height: 30px;
+}
+  
+
+.for-orgs {
+  background-color: rgb(203, 56, 55);
+  border-radius: 30px;
+  color: white;
+  padding: 10px;
+}
+
+.for-orgs a {
+  text-decoration: none;
+  color: white;
+  padding: 15px;
+}
+
+.learn-link {
+  margin-top: 12px;
+}
+
+.learn-link a {
+  text-decoration: none;
+  color: white;  
+}
+ 
+/* What is npm */
+
+#what-is {
+  position: relative;
+  color: white;
+  background-image: url(/Users/rodrigojikal/Desktop/lab-html-module-exercise-master/starter-code/images/forklift.svg);
+  background-size: cover;
+  height: 450px;
+}
+
+.what-content {
+  position: absolute;
+  width: 23%;
+  margin: 120px 0 0 250px;
+}
+
+.what-content p{
+  margin: 25px 0;
+}
+
+.what-content h2 {
+  margin-bottom: 10px;
+}
+
+.what-content a {
+  text-decoration: none;
+  color: white;
+  display: block;
+  background-color: rgb(49, 68, 88);
+  width: 120px;
+  text-align: center;
+  padding: 15px 32x;
+  border-radius: 30px;
+
+}
+
+/*What can you make*/
+
+#features {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.make-heading{
+  margin: 0 auto;
+  padding-top: 60px;
+  text-align: center;
+  color: rgb(83, 88, 98);
+}
+
+.make-heading p{
+  padding-top: 15px;
+}
+
+.make-descrip {
+  margin: 0 auto;
+  padding-top: 50px;
+  padding-bottom: 70px;
+}
+
+.make-descrip p{
+  color: rgb(135, 145, 156)
+
+}
+
+.make-descrip h3{
+  margin: 10px 0;
+   
+}
+
+.descrip-text {
+  text-align: center;
+}
+
+.descrip-deco {
+  color: rgb(208, 74, 73);
+}
+
+.col {
+  float: left;
+}
+
+.col-3 {
+  width: 30%;
+}
+
+.col-middle {
+  margin: 0 5%;
+}
+
+.clearfix {
+  clear: both;
+}
